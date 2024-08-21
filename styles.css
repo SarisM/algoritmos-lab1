@@ -1,0 +1,12 @@
+.app {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.student-card {
+    padding: 15px;
+    color: white;
+    background-color: pink;
+}
