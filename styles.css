@@ -1,13 +1,55 @@
-.app {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+
+
+/* Estilo para el contenedor de los cursos */
+.course-container {
+    margin-bottom: 20px;
 }
 
+/* Estilo para el título de cada curso */
+.course-container h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las tarjetas de los estudiantes */
 .student-card {
-    padding: 15px;
-    color: white;
-    background-color: pink;
-    border-radius: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.student-card h1 {
+    font-size: 1em;
+    color: #333;
+}
+
+.student-card h2, .student-card p, .student-card h3, .student-card h4 {
+    font-size: 0.9em;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Estilo para la lista ordenada de estudiantes */
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1em;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+/* Estilo para el promedio de calificaciones */
+h1 {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
 }
